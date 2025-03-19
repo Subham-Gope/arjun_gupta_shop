@@ -15,7 +15,7 @@ app.use(cors());
 // .json() is used to parse JSON bodies
 app.use(express.json());
 
-app.post("/send-email", sendEmail);
+app.post("/api/send-email", sendEmail);
 
 app.listen(PORT, () => {
   console.log(`PORT running on: ${PORT}`);

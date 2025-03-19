@@ -4,7 +4,7 @@ const sendMail = async (formData) => {
   const url = import.meta.env.VITE_BACKEND_URL;
 
   try {
-    const response = await axios.post(`${url}/send-email`, formData, {
+    const response = await axios.post(`${url}/api/send-email`, formData, {
       headers: {
         "Content-Type": "application/json",
       },
