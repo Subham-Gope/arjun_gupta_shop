@@ -1,5 +1,5 @@
 import ServicesSection from "../components/ServicesSection";
-import TitleCover from "../components/TitleCover";
+import TitleCover from "../components/TitleCover.jsx";
 
 const Services = () => {
   return (
