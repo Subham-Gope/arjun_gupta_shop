@@ -1,5 +1,5 @@
 import ContactUsSection from "../components/ContactUsSection";
-import TitleCover from "../components/titleCover";
+import TitleCover from "../components/TitleCover.jsx";
 
 const Contact = () => {
   return (
