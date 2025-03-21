@@ -18,7 +18,7 @@ app.use(express.json());
 app.post("/api/send-email", sendEmail);
 
 //Sending api status
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("API working");
 });
 
