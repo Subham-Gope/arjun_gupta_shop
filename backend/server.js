@@ -17,6 +17,11 @@ app.use(express.json());
 
 app.post("/api/send-email", sendEmail);
 
+//Sending api status
+app.get("/", (res, req) => {
+  res.send("API working");
+});
+
 app.listen(PORT, () => {
   console.log(`PORT running on: ${PORT}`);
 });
